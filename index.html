@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Francisca Vargas Campos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Mi hoja de estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#17a3b8 ;">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg"  height="40px" alt="Logo Viajes"> Viajes Chile </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">¿Quienes Somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destacados">Destacados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      <!--CAROUSEL-->
+      <header id="inicio">
+          <div class="pb-4">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+      </header>
+      <!--SECTION QUIENES SOMOS-->
+      <section class="container mt-4" id="about">
+          <div class="d-none d-xl-block">
+              <h2 class="text-center font-weight-bold">¿QUIÉNES SOMOS?</h2>
+              <hr>
+              <div class="row text-white my-5">
+                  <div class="col 4">
+                      <div class="bg-info text-center py-1">
+                          <a><i class="fas fa-plane fa-2x"></i></a>
+                      </div>
+                      <p class="font-weight-light my-2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                  <div class="col-4 d-none d-xl-block">
+                      <p class="font-weight-light my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <div class="bg-info text-center py-1">
+                      <a><i class="fas fa-mountain fa-2x"></i></a>
+                  </div>      
+                  </div>
+                  <div class="col-4 d-none d-xl-block">
+                    <div class="bg-info text-center py-1">
+                    <a><i class="fas fa-route fa-2x"></i></a>
+                    </div>
+                    <p class="font-weight-light my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                      aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div> 
+              </div>
+          </div>
+      </section>
+    
+    <!--SECTION CARD-->
+
+    <section class="container py-5" id="destacados">
+        <h2 class="text-center font-weight-bold">DESTACADOS</h2>
+        <hr>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <!-- CARD 1 -->
+          <div class="col">
+            <div class="card bg-info text-white mt-3">
+              <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="Valle">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="btn btn-primary" button type="button" id="btnUno" class="btn btn-light" data-toggle="tooltip" data-placement="right" title="más información">¡Últimos cupos!</a>
+                <button type="button" id="btnUno" class="btn btn-light" data-toggle="tooltip" data-placement="right" title="ver más">Ver más</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- CARD 2 -->
+          <div class="col">
+            <div class="card bg-info text-white mt-3">
+              <img src="assets/img/card2.jpg" height="100%" class="card-img-top img-fluid" alt="Montaña">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" id="btnDos" class="btn btn-light" data-toggle="tooltip" data-placement="right" title="ver más">Ver más</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- CARD 3 -->
+          <div class="col">
+            <div class="card bg-info text-white mt-3">
+              <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="Desierto">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" id="btnTres" class="btn btn-light" data-toggle="tooltip" data-placement="right" title="ver más">Ver más</button>
+              </div>
+            </div>
+            </div>
+      
+          <!-- CARD 4 -->
+          <div class="col">
+            <div class="card bg-info text-white mt-3">
+              <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="Bosque">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" id="btnCuatro" class="btn btn-light" data-toggle="tooltip" data-placement="right" title="ver más">Ver más</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION CONTACTO-->
+      <section id="contact">
+        <div class="container py-4">
+          <h2 class="text-center font-weight-bold">CONTACTO</h2>
+        <hr>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="micorreo@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+          <hr>
+        </div>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+      <footer class="container">
+        <div class="container align-middle py-2">
+            <p class="h3 font-weight-bold pt-1">VIAJES CHILE</p>
+            <a href="https://github.com/"><i class="fab fa-github-square fa-5x"></i></a>
+            <a href="https://twitter.com/?lang=ES"><i class="fab fa-twitter-square fa-5x"></i></a>
+            <a href="https://cl.linkedin.com/"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="https://web.facebook.com/"><i class="fab fa-facebook-square fa-5x"></i></a>
+            <p>Viajes Chile 2021.Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+      
+    
+</body>
+<!--Bundle-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--JQ-->
+<script src="assets/js/main.js"></script>
+<!--JS-->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+</html>
